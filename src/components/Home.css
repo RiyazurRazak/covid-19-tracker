@@ -1,0 +1,34 @@
+body{
+  background-color: #d3d3d3;
+}
+.App{
+  padding-top: 20px;
+}
+.left_col_inner_content{
+padding-left: 20px;
+}
+.header {
+  display: flex;
+  justify-content: flex-end;
+  padding-right:30px ;
+  margin-top: 80px;
+}
+.info_cards{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer{
+  text-align: center;
+}
+
+@media  screen and (max-width: 700px){
+   .info_cards{
+     flex-direction: column;
+     align-items: center
+   }
+   .left_col_inner_content{
+    padding-left: 0;
+    }
+}
+

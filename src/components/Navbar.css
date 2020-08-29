@@ -1,0 +1,31 @@
+.burger-icn{
+    padding-right: 30px;
+}
+.inner-drawer{
+    height: 100%;
+    width: 250px;
+}
+.slogan{
+    position: absolute;
+    right: 40px;
+}
+.nav-icons{
+    color: #000000;
+    size: 50px;
+}
+.link-text{
+    color: green;
+    font-weight: 800 !important;
+    text-decoration: none !important;
+}
+
+@media  screen and (max-width: 700px){
+    .inner-drawer{
+        height: 100%;
+        width: 220px;
+    }.slogan{
+        display: none;
+        visibility: hidden;
+    }
+    
+ }

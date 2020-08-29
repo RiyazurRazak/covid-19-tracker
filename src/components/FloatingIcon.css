@@ -1,0 +1,20 @@
+.floating-btn{
+    visibility: hidden;
+    display: none;
+}
+
+@media  screen and (max-width: 700px){
+    .floating-btn{
+    position: fixed;
+    right: 10px;
+    bottom: 50px;
+    visibility: visible;
+    display: block;
+    z-index: 9999;
+          }
+          .fas{
+              color: whitesmoke;
+              font-size: 20px;
+          }
+    
+ }
