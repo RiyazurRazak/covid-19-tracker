@@ -36,7 +36,7 @@ const[open,setOpen]=useState(false)
           <Link to={'/'}>
         <ListItem button>
           <ListItemIcon>
-          <i class="nav-icons fas fa-home"></i>
+          <i className="nav-icons fas fa-home"></i>
           </ListItemIcon>
           <ListItemText className="link-text" primary="Home" />
         </ListItem>
