@@ -47,7 +47,7 @@ const[open,setOpen]=useState(false)
           <ListItemIcon>
           <i className="nav-icons fas fa-hands-wash"></i>
           </ListItemIcon>
-          <ListItemText className="link-text" primary="Home" />
+          <ListItemText className="link-text" primary="Precautions" />
         </ListItem>
         </Link>
         <Divider />
